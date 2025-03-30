@@ -1,0 +1,76 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body {
+  background-image: url(../images/black-picture10.jpg);
+}
+nav {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 5px;
+  width: 100%;
+  gap: 20px;
+  background-color: rgb(55, 54, 61);
+  display: flex;
+}
+div {
+  position: absolute;
+  padding: 150px;
+  margin: 30px;
+  color: white;
+  border-radius: 5px;
+  background-size: contain;
+  background-color: rgb(77, 75, 75);
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px rgb(148, 151, 151);
+}
+.ul1 {
+  display: flex;
+  align-items: center;
+  padding-left: 500px;
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+}
+p {
+  font-size: 40px;
+  color: rgb(147, 147, 158);
+  text-align: center;
+  text-shadow: 0 0 3px #777474;
+}
+a {
+  color: black;
+  text-align: center;
+  margin: 20px;
+  height: 20px;
+  text-shadow: 0 0 3px #b6aeae;
+}
+a:hover {
+  color: white;
+}
+h2 {
+  top: 30px;
+  padding-right: 150px;
+  text-align: left;
+  color: rgb(147, 147, 158);
+  text-shadow: 0 0 3px #777474;
+}
+h1 {
+  font-size: 50px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px 4px #d1d1d1;
+}
