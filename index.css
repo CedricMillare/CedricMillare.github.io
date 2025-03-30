@@ -8,7 +8,7 @@ body {
   flex-direction: column;
 }
 body {
-  background-image: url(../images/black-picture10.jpg);
+  background-image: url(./test-site/images/black-picture10.jpg);
 }
 nav {
   z-index: 1;
